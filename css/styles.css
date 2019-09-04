@@ -25,8 +25,26 @@ body {
   top: 20px; }
 
 .header__header__box {
-  display: inline-block; }
+  display: inline-block;
+  height: 100%;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-left: 20px; }
 
 .header__image {
   height: 150px;
   border-radius: 50%; }
+
+.main__sidedata {
+  display: inline-block;
+  width: 290px;
+  vertical-align: top; }
+
+.main__experience {
+  display: inline-block;
+  width: 600px;
+  vertical-align: top; }
+
+.main__experience__skills__list__item img {
+  height: 40px; }
